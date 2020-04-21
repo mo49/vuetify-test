@@ -38,7 +38,7 @@
 export default {
 	data: () => ({
 		alignment: 'center',
-		// justify: 'center',
+		justify: 'center',
 	})
 };
 </script>

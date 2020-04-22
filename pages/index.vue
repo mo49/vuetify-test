@@ -5,6 +5,7 @@
 			<v-list>
 				<v-list-item link to='login'>LOGIN</v-list-item>
 				<v-list-item link to='layout'>LAYOUT</v-list-item>
+				<v-list-item link to='menu'>MENU</v-list-item>
 			</v-list>
 		</v-container>
 	</v-content>

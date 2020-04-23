@@ -1,4 +1,5 @@
 import webpack from 'webpack'
+import colors from 'vuetify/lib/util/colors'
 
 const { resolve } = require('path');
 
@@ -126,5 +127,18 @@ export default {
     extend(config, ctx) {
     },
     vender: ['axios'],
-  }
+	},
+
+	vuetify: {
+		customVaribles: ['~/assets/sass/variables.scss'],
+		theme: {
+			themes: {
+				light: {
+					primary: colors.indigo,
+					secondary: colors.grey.darken1,
+					accent: colors.purple.accent1,
+				}
+			}
+		}
+	}
 }

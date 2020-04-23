@@ -7,6 +7,7 @@
 				<v-list-item link to='layout'>LAYOUT</v-list-item>
 				<v-list-item link to='menu'>MENU</v-list-item>
 				<v-list-item link to='modal'>MODAL</v-list-item>
+				<v-list-item link to='color'>COLOR</v-list-item>
 			</v-list>
 		</v-container>
 	</v-content>
